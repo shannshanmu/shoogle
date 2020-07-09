@@ -7302,6 +7302,7 @@ td.visible-print {
 * {
   padding: 0;
   margin: 0;
+  font-family: sans-serif;
 }
 
 .logo {
@@ -7330,9 +7331,9 @@ input[type=search]::-webkit-search-cancel-button {
   padding-top: 20px;
   border-radius: 30px;
   border: 1px solid #cccccc;
-  background: url(../assets/images/other/googlesearch.svg) no-repeat;
+  background: url(../assets/images/other/googlemic.svg) no-repeat, url(../assets/images/other/googlesearch.svg) no-repeat;
   background-size: 24px;
-  background-position: left 15px center;
+  background-position: right 15px center, left 15px center;
 }
 
 .hover-popup {
@@ -7364,6 +7365,30 @@ input[type=search]::-webkit-search-cancel-button {
   border-radius: 4px;
   color: #5F6368;
   background-color: #f2f2f2;
+}
+
+footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  padding: 15px;
+  background-color: #f2f2f2;
+  border-top: #e4e4e4;
+}
+
+footer ol li {
+  display: inline;
+  padding-right: 15px;
+  color: #5f6368;
+  font-size: 13px;
+}
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
 }
 
 /*# sourceMappingURL=index_styling.css.map */
