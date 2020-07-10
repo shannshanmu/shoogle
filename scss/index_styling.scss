@@ -70,26 +70,49 @@ input[type=search]::-webkit-search-cancel-button {
     background-color: #f2f2f2;
 }
 
+.btn:hover {
+    border: 1px solid #cccccc;
+    color: #000000;
+}
+
 footer {
     width: 100%;
     position: fixed;
     bottom: 0;
-    padding: 15px;
+    padding-bottom: 15px;
     background-color: #f2f2f2;
     border-top: #e4e4e4;
+    font-size: 14px;
 }
 
-footer ol li {
+a {
     display: inline;
-    padding-right: 15px;
+    padding-right: 27px;
     color: #5f6368;
+}
+
+#sq_sq {
+    background-image: url(/assets/images/other/google_3x3_grey.png) no-repeat;
+    background-size: 100px;
+}
+
+#sq_sq:hover {
+    background-image: url(/assets/images/other/google_3x3_black.png) no-repeat;
+}
+
+header {
     font-size: 13px;
 }
 
-.left {
+.head-left, .foot-left {
     text-align: left;
+    float: left;
+    padding-top: 15px;
+    padding-left: 15px;
 }
 
-.right {
+.head-right, .foot-right {
     text-align: right;
+    float: right;
+    padding-top: 15px;
 }
