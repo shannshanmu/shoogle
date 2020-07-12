@@ -1,0 +1,17 @@
+@import "../node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.btn {
+    border: 1px solid #4285f4;
+    background: #4d90fe;
+    border-radius: 2px
+}
+
+.btn:hover {
+    box-shadow: 0px 1px 0px 0px #cccccc;
+}
